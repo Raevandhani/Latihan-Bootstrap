@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+
+    <!-- Bootstrrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <style>
+        body{
+            font-family: "Poppins", sans-serif;
+        } 
+
+        .card-text{
+            text-decoration: none;
+            color: #fb6a27;
+        }
+
+        .text-orange{
+            color: #fb6a27;
+        }
+
+        .table{
+        border: white;
+        }
+
+        .nav-link:hover{
+            color: #fb6a27;
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-4" href="#">Raevan.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#home" style="color: #fb6a27;">Home</a>
+              <a class="nav-link" href="#porto">Portofolio</a>
+              <a class="nav-link" href="#skill">Skills</a>
+              <a class="nav-link" href="#time">Timeline</a>
+              <a class="nav-link" href="#news">News</a>
+              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="index-login.html">Login</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3 mb-5" id="home">
+        <div class="row justify-content-between align-items-center">
+            <div class="col">
+                <h3 class="text-orange fw-semibold">Kelly Sikkeman</h3>
+                <h1 class="fw-bold">CREATIVE DESIGN BASE IN INDONESIA</h1>
+                <br>
+                <p>Web Development . <br> Mobile Development . <br> Graphic Designer . </p>
+                <br>
+                <div class="d-flex gap-3">
+                    <div class="d-flex gap-3">
+                        <h2 class="fw-bold">10+</h2>
+                        <p class="fs-7">Years Of <br> Experience</p>
+                    </div>
+            
+                    <div class="d-flex gap-3">
+                        <h2 class="fw-bold">30K</h2>
+                        <p class="fs-7">Happy <br> Customer</p>
+                    </div>
+                </div>
+
+                <button type="button" style="background-color: #fb6a27; width: 200px;" class="btn text-white mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Deskripsi Diri
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Description</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, numquam veniam cum aut vero voluptate ut minima ullam ducimus beatae qui, ab recusandae aliquam dicta ipsum laudantium. Animi, voluptates explicabo.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <img class="ms-md-5" src="kelly-sikkema.jpg" alt="" width="500px">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5" id="porto">
+        <h5 class="mb-3 text-orange fw-bold">PortFolio</h5>
+        <h2 class="fw-bold">SELECTED WORKS</h2>
+
+        <div class="swiper mySwiper mt-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="portfolio-1.jpg" class="card-img-top">
+                      <h5 class="card-title mt-2">Podomoro Timer App UI</h5>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="portfolio-2.jpg" class="card-img-top">
+                      <h5 class="card-title mt-2">Podomoro Timer App UI</h5>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="portfolio-6.png" class="card-img-top">
+                      <h5 class="card-title mt-2">Podomoro Timer App UI</h5>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="portfolio-1.jpg" class="card-img-top">
+                      <h5 class="card-title mt-2">Podomoro Timer App UI</h5>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="portfolio-2.jpg" class="card-img-top">
+                      <h5 class="card-title mt-2">Podomoro Timer App UI</h5>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="portfolio-6.png" class="card-img-top">
+                      <h5 class="card-title mt-2">Podomoro Timer App UI</h5>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-5" style="background-color: black;" id="skill">
+        <div class="container mt-5 mb-5">
+            <h5 class="mb-3 text-orange fw-bold">Skill</h5>
+            <h2 class="fw-bold" style="color: white;">PROGRAMMING SKILLS</h2>
+
+            <br>
+
+            <div class="row align-items-center justify-content-between">
+                <div class="col">
+
+                    <div class="bar-text" style="display: flex; justify-content: space-between;">
+                        <h5 style="color: white;">HTML</h5>
+                        <h5 style="color: white;">90%</h5>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 90%; background-color: #fb6a27;"></div>
+                    </div><br>
+
+                    <div class="bar-text" style="display: flex; justify-content: space-between;">
+                        <h5 style="color: white;">CSS</h5>
+                        <h5 style="color: white;">50%</h5>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 50%; background-color: #fb6a27;"></div>
+                    </div><br>
+
+                    <div class="bar-text" style="display: flex; justify-content: space-between;">
+                        <h5 style="color: white;">BOOTSTRAP</h5>
+                        <h5 style="color: white;">70%</h5>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 70%; background-color: #fb6a27;"></div>
+                    </div>
+
+                </div>
+
+                <div class="col d-flex justify-content-end">
+                    <img src="kelly-sikkema.jpg" alt="" style="width: 400px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5 pt-3" id="time">
+        <h5 class="mb-3 text-orange fw-bold">Timeline</h5>
+        <h2 class="fw-bold">WORKING PERIOD</h2>
+        
+        <table class="table mt-4">
+            <tr>
+                <td>January 2024 - Today</td>
+                <td>Head Programmer & Co-Founder</td>
+                <td>Shopee, Jakarta</td>
+            </tr>
+            <tr>
+                <td>January 2023 - December 2023</td>
+                <td>Creative Director & Senior Programmer</td>
+                <td>Lazada, Jakarta</td>
+            </tr>
+            <tr>
+                <td>September 2018 - 2021</td>
+                <td>Junior Programmer</td>
+                <td>Majoo, Jakarta</td>
+              </tr>
+        </table>
+    </div>
+
+    <div class="container mt-5 mb-5 pt-5" id="news">
+        <h5 class="mb-3 text-orange fw-bold">PortFolio</h5>
+        <h2 class="fw-bold">SELECTED WORK</h2>
+
+        <div class="swiper mySwiper mt-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="news-1.png" class="card-img-top">
+                      <h6 class="card-title mt-3 fw-semibold">Bagaimana Membuat Web Portofolio</h6>
+                      <p class="fs-6">Bagaimana Membuat Web Portofolio</p>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="news-2.png" class="card-img-top">
+                      <h6 class="card-title mt-3 fw-semibold">Bagaimana Membuat Web Portofolio</h6>
+                      <p class="fs-6">Bagaimana Membuat Web Portofolio</p>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="news-3.png" class="card-img-top">
+                      <h6 class="card-title mt-3 fw-semibold">Bagaimana Membuat Web Portofolio</h6>
+                      <p class="fs-6">Bagaimana Membuat Web Portofolio</p>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="news-1.png" class="card-img-top">
+                      <h6 class="card-title mt-3 fw-semibold">Bagaimana Membuat Web Portofolio</h6>
+                      <p class="fs-6">Bagaimana Membuat Web Portofolio</p>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="news-2.png" class="card-img-top">
+                      <h6 class="card-title mt-3 fw-semibold">Bagaimana Membuat Web Portofolio</h6>
+                      <p class="fs-6">Bagaimana Membuat Web Portofolio</p>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="news-3.png" class="card-img-top">
+                      <h6 class="card-title mt-3 fw-semibold">Bagaimana Membuat Web Portofolio</h6>
+                      <p class="fs-6">Bagaimana Membuat Web Portofolio</p>
+                      <a href="#" class="card-text">Detail Portofolio</a>
+                    </div>
+                </div>
+              </div>
+            </div>  
+        </div>
+
+    </div>
+
+    <div class="container text-center mt-5 mb-5 pt-5 pb-5">
+      <h2 class="fw-bold mb-3">TESTIMONY</h2>
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="d-block mt-5 mb-5" fill="#ffffff">
+              <img src="christopher-campbell-Xo4YvBp6IBM-unsplash.jpg" class="rounded-circle mx-auto d-block" width="150px" height="150px">
+              <h4 class="m-3 fw-semibold">Christopher Campbell</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Praesentium a magnam officiis alias distinctio fugiat, laboriosam iste laudantium.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-block mt-5 mb-5" fill="#ffffff">
+              <img src="channels4_profile.jpg" class="rounded-circle mx-auto d-block" width="150px" height="150px">
+              <h4 class="m-3 fw-semibold">Ducky Dee</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Praesentium a magnam officiis alias distinctio fugiat, laboriosam iste laudantium.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-block mt-5 mb-5" fill="#ffffff">
+              <img src="sung-wang-g4DgCF90EM4-unsplash.jpg" class="rounded-circle mx-auto d-block" width="150px" height="150px">
+              <h4 class="m-3 fw-semibold">Sung wang</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Praesentium a magnam officiis alias distinctio fugiat, laboriosam iste laudantium.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: gray;"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: gray;"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5" id="contact">
+        <h5 class="mb-3 text-orange fw-bold">Contact</h5>
+        <h2 class="fw-bold">GET IN TOUCH</h2>
+
+        <div class="row">
+            <div class="col">
+                <p class="fw-light mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex distinctio at earum, beatae alias dicta neque vero aspernatur, unde a saepe perspiciatis, tenetur omnis! Perspiciatis officia autem sequi sit optio.</p>
+                <p class="fw-medium"> <i class="fa-solid fa-location-dot text-orange me-2"></i> Jl Poras no 7 Sindang Barang Loji, Kota Bogor Jawa Barat</p>
+                <p class="fw-medium"> <i class="fa-solid fa-phone text-orange me-2"></i> +62 1234 87465 84774</p>
+                <p class="fw-medium"> <i class="fa-solid fa-envelope text-orange me-2"></i> kellysikema@gmail.com</p>
+            </div>
+
+            <div class="col">
+              <form>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nama">
+                </div>
+
+                <div class="mb-3">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                </div>
+
+                <div class="mb-3">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Alamat">
+                </div>
+
+                <button class="btn text-center" type="button" style="background-color:#fb6a27; color: white; width: 100%;">Button</button>
+              </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-black text-center p-1 pt-3">
+        <p style="color: white;">Copyright © 2024 Raevandhani F. Purnama Syarif</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        });
+      </script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/fb890e3537.js" crossorigin="anonymous"></script>
+</body>
+</html>
